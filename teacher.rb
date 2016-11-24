@@ -14,11 +14,9 @@ class Teacher < DBCFamily
   end
 
   def teach_stuff
-    response = ""
-    response += "Listen, class, this is how everything works#{@everything_works}"
+    response = "Listen, class, this is how everything works#{@everything_works}"
     response += "*drops #{@knowledge_bomb} knowledge bomb* "
     response += "... You're welcome.#{@youre_welcome}"
-    response
   end
 
   def salary=(new_salary)
